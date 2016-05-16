@@ -10,6 +10,7 @@ http.createServer(function(request, response) {
 
     var body = []; // gdy to body chciałem dać poza createServer - jako zmienną globalną, to w request.on("data") wyskakiwał błąd że body "has no push method"
 
+    cosnole.log("server running");
     request.on('error', function(err) {
         console.error(err);
 

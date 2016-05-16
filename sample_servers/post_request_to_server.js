@@ -22,3 +22,4 @@ xmlhttp.setRequestHeader("Content-Type","application/json;charset=UTF-8");
 /*xmlhttp.onload = function(){ console.log("as as asas a");};*/ // to też może byc ale bez tego działa
 
 xmlhttp.send(json);
+
