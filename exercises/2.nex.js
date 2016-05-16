@@ -7,7 +7,7 @@ var result =0;
 
 for(var i =2; i<arr.length; i++){  // pomija dwa pierwsze elementy - "node" i "2.nex.js"
 
-result += Number(arr[i]);
+result += 3Number(arr[i]);
 
 };
 

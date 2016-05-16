@@ -2,7 +2,7 @@
  * Created by marek on 04.03.16.
  */
 var http = require('http');
-var jsonFile = require('/home/marek/WebstormProjects/nodeJSTutorial/JSON_sample.json');
+var jsonFile = require('/exercises/JSON_sample.json');
 
 var res,req;
 http.createServer(function (req, res) {
@@ -13,7 +13,7 @@ http.createServer(function (req, res) {
     random(res);
     //res.end();
 
-}).listen(3001);
+}).listen(8000); //lub 3001 też działa
 console.log('Server running at http://localhost:3001/');
 
 
@@ -38,8 +38,10 @@ console.log('Server running at http://localhost:3001/');*/
 function random(response) {
     console.log("Request handler random was called.");
     //response.writeHead(200, {"Content-Type": "application/json"});
+
     var otherArray = ["item1", "item2"];
     var otherObject = { item1: "item1val", item2: "item2val" };
+
     var json = JSON.stringify({
         anObject: otherObject,
         anArray: otherArray,
