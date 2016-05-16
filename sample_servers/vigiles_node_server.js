@@ -3,7 +3,7 @@
  */
 var http = require('http');
 var fs = require('fs');
-var path = "/home/marek/WebstormProjects/Vigiles/data/test_arch/data.json";
+var path = "/home/ubuntu/Vigiles/data/test_arch/data.json";
 
 
 http.createServer(function(request, response) {
