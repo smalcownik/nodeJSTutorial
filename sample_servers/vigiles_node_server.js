@@ -45,6 +45,6 @@ http.createServer(function(request, response) {
         response.end(); // response.end musi być bo inaczej nie wykona się request.on("end".....
 
     });
-}).listen(8000);
+}).listen(80);
 
 //TODO: to (i pliki data vigilesa) umieścić na amazonie
