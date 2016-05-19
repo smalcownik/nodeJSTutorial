@@ -47,4 +47,4 @@ http.createServer(function(request, response) {
     });
 }).listen(80);
 
-//TODO: to (i pliki data vigilesa) umieścić na amazonie
+//TODO: do tego dorzucić opcję GET z tym samym plikiem, żeby vigiles brał go w app.js jako url (skopiować z pliku amazon: nodeSamples/test_with_json.js)
